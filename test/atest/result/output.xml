@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170306 20:32:30.900" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<suite source="/home/florian/ws_github/robotframework-modbus/test/atest/testcases.robot" id="s1" name="Testcases">
+<test id="s1-t1" name="Request single coil">
+<kw name="Start Modbus Server">
+<arguments>
+<arg>${SERVER 1}</arg>
+<arg>${SERVER 1 NAME}</arg>
+</arguments>
+<msg timestamp="20170306 20:32:30.926" level="FAIL">No keyword with name 'Start Modbus Server' found.</msg>
+<status status="FAIL" endtime="20170306 20:32:30.926" starttime="20170306 20:32:30.926"></status>
+</kw>
+<status status="FAIL" endtime="20170306 20:32:30.926" critical="yes" starttime="20170306 20:32:30.924">No keyword with name 'Start Modbus Server' found.</status>
+</test>
+<status status="FAIL" endtime="20170306 20:32:30.927" starttime="20170306 20:32:30.902"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Testcases" pass="0">Testcases</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170306 20:32:30.922" level="ERROR">Error in file '/home/florian/ws_github/robotframework-modbus/test/atest/testcases.robot': Importing test library 'ModbusLibrary' failed: ImportError: No module named rammbock
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/ModbusLibrary/__init__.py", line 1, in &lt;module&gt;
+  File "build/bdist.linux-x86_64/egg/ModbusLibrary/modbus.py", line 1, in &lt;module&gt;
+PYTHONPATH:
+  /usr/local/bin
+  /usr/local/lib/python2.7/dist-packages/robotframework_modbus-0.0.1-py2.7.egg
+  /home/florian/ws_github/robotframework-modbus
+  /ws_github/robotframework-modbus/src/Modbus
+  /usr/lib/python2.7
+  /usr/lib/python2.7/plat-x86_64-linux-gnu
+  /usr/lib/python2.7/lib-tk
+  /usr/lib/python2.7/lib-old
+  /usr/lib/python2.7/lib-dynload
+  /home/florian/.local/lib/python2.7/site-packages
+  /usr/local/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages/gtk-2.0</msg>
+</errors>
+</robot>
